@@ -1,0 +1,29 @@
+.table {
+  border: 3px solid #ccc;
+}
+
+.table-th {
+  background-color: rgba(0, 0, 0, 0.1);
+  color: '#000';
+  border-bottom: 3px solid #ccc;
+  text-align: 'center';
+}
+
+.table-td {
+  text-align: 'center';
+}
+
+.pagination {
+  padding: 8px 16px;
+}
+
+.pagination-summary {
+  color: red
+}
+
+.pagination-button {
+  display: inline-block;
+  color: blue;
+  padding: 8px 16px;
+  text-decoration: none;
+}
