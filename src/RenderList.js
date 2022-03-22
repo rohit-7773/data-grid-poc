@@ -30,7 +30,8 @@ function RenderList(props) {
     th: "table-th",
     pagination: "pagination",
     paginationSummary: "pagination-summary",
-    paginationButton: "pagination-button"
+    paginationButton: "pagination-button",
+    sort: "sort-button"
   }
 
   return (
@@ -40,6 +41,7 @@ function RenderList(props) {
       pagination={paginationConfig}
       search={serverConfig}
       className={stylingClassNames}
+      sort={true}
     />
   )
 }
